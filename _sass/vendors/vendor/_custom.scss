@@ -1,0 +1,33 @@
+.js-glide-1,
+.js-glide-2,
+.js-glide-3 {
+  margin-bottom: 3rem;
+}
+
+.glide--slider {
+  max-height: 500px;
+  position: relative;
+}
+
+.glide__bullets {
+  position: absolute;
+  display: block;
+  bottom: -32px;
+  left: 50%;
+  margin-left: -27.5px;
+  @media screen and ( min-width: 720px ) {
+    display: none;
+  }
+}
+
+.glide__bullet {
+  background-color: $white-whitesmoke;
+  border-radius: 15px;
+  border-width: 1px;
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  &.glide__bullet--active {
+    background-color: $black-iblack;
+  }
+}
