@@ -23,14 +23,23 @@
   },
   "homepage": "https://github.com/iLoyola/work-examples#readme",
   "devDependencies": {
+    "@aws-amplify/backend": "^1.0.3",
+    "@aws-amplify/backend-cli": "^1.0.4",
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
+    "aws-cdk": "^2.147.0",
+    "aws-cdk-lib": "^2.147.0",
     "babel-loader": "^8.0.6",
+    "constructs": "^10.3.0",
+    "esbuild": "^0.21.5",
+    "tsx": "^4.15.7",
+    "typescript": "^5.5.2",
     "webpack": "^4.39.1",
     "webpack-cli": "^3.3.6"
   },
   "dependencies": {
     "@glidejs/glide": "^3.3.0",
+    "aws-amplify": "^6.3.7",
     "glob-parent": "^6.0.1"
   },
   "overrides": {
