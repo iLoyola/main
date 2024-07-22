@@ -22,6 +22,15 @@
 }
 
 .#{$prefix}header-logo {
-  font-family: $header-font-family;
-  font-size: $font-size-medium;
+    font-family: Inter var,
+        ui-sans-serif,
+        system-ui,
+        sans-serif,
+        "Apple Color Emoji",
+        "Segoe UI Emoji",
+        Segoe UI Symbol,
+        "Noto Color Emoji";
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 11vh;
 }
